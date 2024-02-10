@@ -1,0 +1,20 @@
+body{
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+.card {
+    border: 2px solid #2C5364;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ccf0ed;
+    transition: all 400ms;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
